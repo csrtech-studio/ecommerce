@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Online - Artículos para Toda Ocasión</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a Nuestra Tienda de Artículos para Toda Ocasión</h1>
+    <a href="admin.html" class="admin-link">Administrador</a>
+  </header>
+  <main>
+    <section id="productos" class="productos">
+      <!-- Productos se cargarán aquí -->
+    </section>
+
+    <section id="blog" class="blog">
+      <!-- Entradas del blog se cargarán aquí -->
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Tienda para Toda Ocasión</p>
+  </footer>
+
+  <!-- Importa los scripts de Firebase con la versión exacta -->
+  <script type="module" src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
